@@ -7,7 +7,7 @@ import './index.css'
 
 
 function App() {
-    const api = 'http://www.omdbapi.com/?i=tt3896198&apikey=e3848925';
+    const api = 'https://www.omdbapi.com/?i=tt3896198&apikey=e3848925';
     const [state, setState] = useState({
         value : '',
         results: [],
